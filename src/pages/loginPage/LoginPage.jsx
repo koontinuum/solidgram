@@ -22,13 +22,13 @@ function LoginPage() {
           <img src="faceicon.png" alt="" />
           <a href="https://www.facebook.com/">Войти через Facebook</a>
         </div>
-        <a type="submit" id="submit" href="">
+        <a href="/#" type="submit" id="submit">
           Забыли пароль?
         </a>
       </form>
       <div className="container3">
         <p>
-          У вас еще нет аккаунта?<a href="">Зарегестрироваться</a>
+          У вас еще нет аккаунта?<a href="/#">Зарегестрироваться</a>
         </p>
       </div>
       <div className="container4">
