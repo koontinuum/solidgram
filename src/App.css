@@ -1,38 +1,87 @@
-.App {
+.btn {
+  background: #4db5f9;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  width: 258px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #0095f6;
+}
+.container > hr {
+  width: 100px;
+  height: 0;
+  border: none;
+  background-color: hwb(0deg 86% 14%);
+  color: hwb(0deg 86% 14%);
+  height: 1px;
+}
+.container {
+  display: flex;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container > p {
+  color: #8e8e8e;
+  font-size: 0.8125rem;
+  font-family: sans-serif;
+  font-size: 11px;
+  margin-right: 18px;
+  margin-left: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container2 > img {
+  width: 16px;
+  height: 15px;
+  margin: 0 auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container2 > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  color: #385185;
+}
+.container2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container3 {
+  width: 340px;
+  display: grid;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid rgb(197, 197, 197);
+  margin-top: -35px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container3 {
+  display: flex;
+  font-size: smaller;
+}
+.container3 > p > a {
+  text-decoration: none;
+  color: #0095f6;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.container4 {
+  width: 340px;
+  display: grid;
+  padding: 15px;
+  font-size: smaller;
+}
+.container4 > .imagesicon > img {
+  margin: 15px 0 7px 7px;
+  width: 130px;
+  height: 40px;
+}
+.iconimg > img {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  padding-top: 10px;
+  width: 350px;
+  height: 550px;
+  cursor: auto;
 }

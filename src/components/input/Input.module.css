@@ -1,0 +1,16 @@
+input {
+  padding: 8px;
+  width: 258px;
+  background: rgb(242, 242, 242);
+  border: 1px solid gray;
+  outline: none;
+  font-size: 11px;
+}
+
+img {
+  width: 175px;
+  height: 75px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
