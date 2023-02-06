@@ -14,7 +14,7 @@ function App() {
         <Route path='/' element={<PrivateRoute isAuth={isAuth}><HomePage /></PrivateRoute>} />
         <Route path='/search' element={<HomePage />} />
         <Route path='/interesting' element={<HomePage />} />
-        <Route path='/Reels' element={<HomePage />} />
+        <Route path='/reels' element={<HomePage />} />
         <Route path='/chat' element={<HomePage />} />
         <Route path='/login' element={<PublicRoute isAuth={isAuth}>{<LoginPage />}</PublicRoute>} />
       </Routes>

@@ -1,1 +1,9 @@
-
+.content {
+  margin: 40px 130px;
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+.innerContent {
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.wrapper {
+  margin-bottom: 20px;
+}
+.image {
+  width: 100%;
+}
+.image > img {
+  width: 468px;
+  height: 468px;
+  border-radius: 3px;
+}
+.buttons {
+  margin-top: -30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.icons > img,
+.icon > img {
+  width: 23px;
+  height: 23px;
+}
+.icons {
+  width: 20%;
+  margin-left: -8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  margin-right: 102px;
+  display: flex;
+}
+.wrapper > p {
+  font-size: small;
+  margin-top: -10px;
+  color: #262626;
+}
+.text {
+  width: 100%;
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+.text > p > img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
+.text {
+  margin-top: -10px;
+  width: 85%;
+  margin-left: -0px;
+}
