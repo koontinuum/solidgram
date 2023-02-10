@@ -2,12 +2,12 @@ import React from "react";
 import Header from "./header/Header";
 import css from "./Post.module.css";
 
-function Post() {
+function Post(props) {
   return (
     <div className={css.wrapper}>
-      <Header />
+      <Header {...props} />
       <div className={css.image}>
-        <img src="messiandron.webp" alt="" />
+        <img src={props.image} alt="" />
       </div>
       {/* Наши кнопки по типу лайка */}
       <div className={css.buttons}>
@@ -21,10 +21,10 @@ function Post() {
         </div>
       </div>
       {/*Конец наших элементов кнопки*/}
-      <p>32 123 123 отметок "Нравится"</p>
+      <p>{props.like} отметок "Нравится"</p>
       <div className={css.text}>
         <p>
-          <strong>leomessi</strong>
+          <strong>{props.author}</strong>
           <img src="transparent.png" alt="" />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
           distinctio dolore, accusamus quis animi, culpa rem, modi tempora quam
@@ -32,6 +32,11 @@ function Post() {
           ullam?
         </p>
       </div>
+      <p className={css.comments}>
+        Посмотреть все комментарии ({props.commentCount})
+      </p>
+      <p className={css.comments}>Добавить комментарии...</p>
+      <hr />
     </div>
   );
 }

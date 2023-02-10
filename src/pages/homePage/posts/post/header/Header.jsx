@@ -1,12 +1,12 @@
 import React from "react";
 import css from "./Header.module.css";
 
-function Header() {
+function Header(props) {
   return (
     <div className={css.header}>
       <div className={css.hleft}>
-        <img src="messi.jpg" alt="" />
-        <strong>leomessi</strong>
+        <img src={props.avatar} alt="" />
+        <strong>{props.author}</strong>
         <img className={css.galochka} src="transparent.png" alt="" />
         <p>• 2 ч.</p>
       </div>

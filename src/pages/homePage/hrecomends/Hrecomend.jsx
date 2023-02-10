@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Hrecomend.module.css";
 import Header from "../posts/post/header/Header";
 
-function Hrecomend() {
+function Hrecomend(props) {
   return (
     <div className={css.recomendation}>
       <Header />

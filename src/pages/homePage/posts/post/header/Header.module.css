@@ -25,6 +25,7 @@
   width: 33px;
   height: 33px;
   transform: rotate(90deg);
+  margin-left: 8px;
 }
 
 .hleft > .galochka {

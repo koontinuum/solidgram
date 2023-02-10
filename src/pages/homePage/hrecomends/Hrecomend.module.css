@@ -1,6 +1,10 @@
 .recomendation {
-  border: 2 px solid #000;
   height: 350px;
   width: 35%;
-  background: aqua;
+  background: gray;
+}
+.recomendation > div > img {
+  width: 24px;
+  height: 24px;
+  border-radius: 360px;
 }

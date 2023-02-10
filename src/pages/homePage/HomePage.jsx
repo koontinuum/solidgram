@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SideBar from "../../components/sideBar/SideBar";
 import css from "./HomePage.module.css";
 import Stories from "./stories/Stories";
@@ -12,9 +12,6 @@ function HomePage() {
       <div className={css.content}>
         <div className={css.innerContent}>
           <Stories />
-          <Posts />
-          <Posts />
-          <Posts />
           <Posts />
         </div>
         <Hrecomend />

@@ -52,3 +52,7 @@
   width: 85%;
   margin-left: -0px;
 }
+.wrapper > .comments {
+  margin-top: 10px;
+  color: gray;
+}
