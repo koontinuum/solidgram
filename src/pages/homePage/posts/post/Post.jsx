@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "./header/Header";
 import css from "./Post.module.css";
+import Comment from "../../../../components/comment/Comment";
+import { Link } from "react-router-dom";
 
 function Post(props) {
   return (
     <div className={css.wrapper}>
       <Header {...props} />
-      <div className={css.image}>
+      <Link to={`/post/${props.id}`} className={css.image}>
         <img src={props.image} alt="" />
-      </div>
+      </Link>
       {/* Наши кнопки по типу лайка */}
       <div className={css.buttons}>
         <div className={css.icons}>
@@ -37,6 +39,12 @@ function Post(props) {
       </p>
       <p className={css.comments}>Добавить комментарии...</p>
       <hr />
+      <div className={css.comments1}>
+        <b>Comments:</b>
+        {props.comments.map((item) => (
+          <Comment key={item.id} {...item} />
+        ))}
+      </div>
     </div>
   );
 }

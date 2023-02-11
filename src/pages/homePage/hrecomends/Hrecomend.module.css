@@ -1,10 +1,36 @@
 .recomendation {
   height: 350px;
   width: 35%;
-  background: gray;
 }
 .recomendation > div > img {
   width: 24px;
   height: 24px;
   border-radius: 360px;
+}
+.recomendation > .div > img {
+  width: 44px;
+  height: 44px;
+}
+.div {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.div > a {
+  text-decoration: none;
+  color: #00376b;
+}
+.div1 {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+.div1 > a {
+  text-decoration: none;
+  color: #00376b;
+}
+.div1 > p {
+  color: #8e8e8e;
+  margin-left: 10px;
 }
